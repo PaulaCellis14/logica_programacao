@@ -1,7 +1,18 @@
 #Soma de Números Positivos:
 #Escreva um programa que solicite números ao usuário até que ele digite um número negativo, somando apenas os números positivos inseridos.
 
+numero = ""
+soma = 0
+
 num = int(input("Insira um número: "))
+
+while numero > 0:
+    numero = int(input("insira um número: "))
+    if numero > 0:
+        print("numero")
+        soma += numero
+    else:
+        print("Número invalido.")
 
 soma = 0
 while num > 0:
